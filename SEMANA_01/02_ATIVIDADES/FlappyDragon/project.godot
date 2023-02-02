@@ -18,6 +18,10 @@ run/main_scene="res://Main.tscn"
 window/size/width=400
 window/size/resizable=false
 
+[mono]
+
+project/assembly_name="Flappy Dragon"
+
 [physics]
 
 common/enable_pause_aware_picking=true
