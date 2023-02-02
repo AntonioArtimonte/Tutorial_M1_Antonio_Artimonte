@@ -1,9 +1,9 @@
 extends Node # instancia a classe Node2D
 
-var status = 1
-var vscore = 0
-var x = 3.0
-var y = 1.5 
+var status = 1 # A variavel status serve para o fundo do jogo saber quando alguem deu o input de iniciar o jogo e, começar a mover o fundo junto das colunas
+var vscore = 0 # Serve para aumentar o score do jogo quando o dragão passa entre os pilares de colisão
+var x = 1.5 # Variavel X é a variavel do plano das abscissas no plano cartesiano, ou seja, quanto maior x, maior a velocidade do plano de fundo + colunas
+var y = 1.5 # Variavel Y é o plano das coordenadas, que acaba sendo o controle para que o dragão possa subir ou descer no meio do plano cartesiano.
 
 # executa essa função ao carregar o jogo
 func _ready():
@@ -17,7 +17,7 @@ func _process(delta):
 	if status == 1: # jogando
 		
 		# movimenta o cenário do fundo
-		$background.position.x -= 1*x
+		$background.position.x -= 8*x # Quanto maior o multiplicador de X, maior a velocidade do fundo cenario
 		if ($background.position.x) < -200:
 			$background.position.x = 600
 			
