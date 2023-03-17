@@ -1,0 +1,58 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Cenas/Vidas.gd" type="Script" id=1]
+[ext_resource path="res://Sprites/Hud/New Piskel-1.png (7).png" type="Texture" id=2]
+[ext_resource path="res://Sprites/Hud/New Piskel-1.png (7)-1.png.png" type="Texture" id=3]
+
+[node name="Vidas" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="coracao1" type="Sprite" parent="."]
+position = Vector2( 24, 24 )
+scale = Vector2( 0.35, 0.35 )
+texture = ExtResource( 2 )
+
+[node name="coracao2" type="Sprite" parent="."]
+position = Vector2( 64, 24 )
+scale = Vector2( 0.35, 0.35 )
+texture = ExtResource( 2 )
+
+[node name="coracao3" type="Sprite" parent="."]
+position = Vector2( 104, 24 )
+scale = Vector2( 0.35, 0.35 )
+texture = ExtResource( 2 )
+
+[node name="coracao4" type="Sprite" parent="."]
+position = Vector2( 144, 24 )
+scale = Vector2( 0.35, 0.35 )
+texture = ExtResource( 2 )
+
+[node name="coracao5" type="Sprite" parent="."]
+position = Vector2( 184, 24 )
+scale = Vector2( 0.35, 0.35 )
+texture = ExtResource( 2 )
+
+[node name="coracao1_2" type="Sprite" parent="."]
+position = Vector2( 24, 24 )
+scale = Vector2( 0.35, 0.35 )
+texture = ExtResource( 3 )
+
+[node name="coracao2_2" type="Sprite" parent="."]
+position = Vector2( 64, 24 )
+scale = Vector2( 0.35, 0.35 )
+texture = ExtResource( 3 )
+
+[node name="coracao3_2" type="Sprite" parent="."]
+position = Vector2( 104, 24 )
+scale = Vector2( 0.35, 0.35 )
+texture = ExtResource( 3 )
+
+[node name="coracao4_2" type="Sprite" parent="."]
+position = Vector2( 144, 24 )
+scale = Vector2( 0.35, 0.35 )
+texture = ExtResource( 3 )
+
+[node name="coracao5_2" type="Sprite" parent="."]
+position = Vector2( 184, 24 )
+scale = Vector2( 0.35, 0.35 )
+texture = ExtResource( 3 )
